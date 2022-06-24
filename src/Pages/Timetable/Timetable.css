@@ -1,0 +1,26 @@
+.background1 {
+    background-color: rgba(0, 0, 255, 0.715);
+
+}
+
+.background2 {
+    background-color: rgba(0, 0, 255, 0.638);
+
+}
+
+.background3 {
+    background-color: rgba(0, 0, 255, 0.670);
+
+}
+
+.background4 {
+    background-color: rgba(0, 0, 255, 0.633);
+
+}
+
+.custom-position {
+    /* top: 53vw; */
+
+    left: 50vw;
+    right: -20vw;
+}

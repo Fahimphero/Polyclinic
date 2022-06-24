@@ -1,0 +1,16 @@
+/* .hover {
+    overflow: hidden;
+} */
+
+.hover:hover img {
+    transform: scale(.9);
+    transition: transform 0.3s ease-in-out;
+}
+
+.hover-style-1:hover {
+    background-color: blue;
+}
+
+.hover-style-2:hover {
+    background-color: red;
+}

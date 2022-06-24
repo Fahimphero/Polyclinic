@@ -1,0 +1,16 @@
+.background {
+    background-image: linear-gradient(to right,
+            transparent, rgb(255, 255, 255) 90%), url('../../Images/IMG_2211.jpg');
+    min-height: 90vh;
+    /* color:transparent; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* .positioning {
+    left: 150rem;
+    bottom: 50%;
+
+} */
