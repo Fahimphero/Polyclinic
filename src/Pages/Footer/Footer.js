@@ -8,19 +8,16 @@ import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
     return (
-        <div className='container mt-5'>
-            <div className="row">
-                <div className="col text-dark">
-                    <div className='d-flex align-items-center mb-3'>
-                        <div style={{ width: '40px' }} >
-                            <img className='img-fluid' src={logo} alt="" />
+        <div className='container mt-5 '>
+            <div className="row g-3 text-center">
+                <div className="col-12 col-lg-3 text-dark">
+                    <div>
 
-                        </div>
-                        <h5 className='m-0 fw-bold'> Coochbehar polyclinic</h5>
+                        <h5 className='m-0 fw-bold mb-3'><img style={{ width: '40px' }} className='img-fluid ' src={logo} alt="" /> Coochbehar polyclinic</h5>
                     </div>
                     <p>" Your Health is our Priority "
                         We are committed to providing advanced and affordable treatment to every patient.</p>
-                    <p className='fs-5'>
+                    <p className='fs-5 text-start ps-3'>
                         <span className=''>
                             <a className='text-style text-dark' href="https://www.facebook.com/cobpoly/" target="_blank" rel='noreferrer'>  <FontAwesomeIcon className=' border border-dark rounded-circle px-2 py-2 hover-color-1' icon={faFacebook}></FontAwesomeIcon>
                             </a>
@@ -32,7 +29,7 @@ const Footer = () => {
 
                     </p>
                 </div>
-                <div className="col">
+                <div className="col-12 col-lg-3 ">
                     <h5 className='fw-bold mb-4'>Our Location</h5>
                     <p className='m-0'>P.V.N.N Road, Chaltala, Near </p>
                     <p className='m-0'>SunityAcademy School</p>
@@ -40,14 +37,14 @@ const Footer = () => {
                     <p className='m-0'>Coochbehar - 736101</p>
 
                 </div>
-                <div className="col">
+                <div className="col-12 col-lg-3 ">
                     <h5 className='fw-bold'>Working Time</h5>
                     <p className='mt-4 mb-0'>Mon - Tue- <span className='fw-bold'>9:00 AM - 9:00 PM</span></p>
                     <p className='m-0'>Wed - Thu - <span className='fw-bold'>9:00 AM - 9:00 PM</span></p>
                     <p className='m-0'>Fri - Sat - <span className='fw-bold'>9:00 AM - 9:00 PM</span></p>
                     <p className='m-0'>Sun - <span className='fw-bold'>Closed</span></p>
                 </div>
-                <div className="col">
+                <div className="col-12 col-lg-3 ">
                     <h5 className='fw-bold mb-4'>Contact Us</h5>
                     <h3 className='text-primary fw-bold'>035-822-95002</h3>
                     <p className='mb-0'>We believe that patients deserve to have timely access to healthcare and that our system should reflect this value.</p>

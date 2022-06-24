@@ -14,9 +14,9 @@ const Doctors = () => {
         <div>
             <div className='bg-primary '>
                 <div className='container d-flex justify-content-between  align-items-center text-light'>
-                    <small className='my-1'><FontAwesomeIcon className='mx-4' icon={faLocationDot}></FontAwesomeIcon>P.V.N.N Road, Chaltala, Near SunityAcademy School, Coochbehar - 736101 <FontAwesomeIcon className='ms-3' icon={faPhone}></FontAwesomeIcon>
+                    <small className='my-1'><FontAwesomeIcon className='mx-1' icon={faLocationDot}></FontAwesomeIcon>P.V.N.N Road, Chaltala, Near SunityAcademy School, Coochbehar - 736101 <FontAwesomeIcon className='ms-3 me-1' icon={faPhone}></FontAwesomeIcon>
                         <a className='text-light text-style' href="tel:03582295002" >(035)-822-95002</a>
-                        <FontAwesomeIcon className='ms-3' icon={faPhone}></FontAwesomeIcon><a className='text-light text-style' href="tel:7384092221" >(738)-409-2221</a></small>
+                        <FontAwesomeIcon className='ms-3 me-1' icon={faPhone}></FontAwesomeIcon><a className='text-light text-style' href="tel:7384092221" >(738)-409-2221</a></small>
                     <div className=' d-flex '>
                         <h4 className='m-0 py-2 px-3 hover-style-1'><FontAwesomeIcon className='' icon={faFacebook}></FontAwesomeIcon></h4>
                         <h4 className='py-2 px-3 m-0 hover-style-2'><FontAwesomeIcon className='' icon={faInstagram}></FontAwesomeIcon></h4>

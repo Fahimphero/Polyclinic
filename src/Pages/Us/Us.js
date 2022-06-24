@@ -40,14 +40,14 @@ const Us = () => {
                 </div>
             </div>
             <div style={{ marginTop: '100px' }} className='row '>
-                <div className='col-6 d-flex justify-content-center align-items-center'>
+                <div className='col-12 col-lg-6 d-flex justify-content-center align-items-center'>
                     <div className='w-75 no-wrap'>
 
                         <h1 className='text-start text-primary fw-bold'>Our Doctors</h1><br />
                         <p >We offer an up-to-date medical approach with 10 departments of expertise in an ethical and reliable environment with our experienced medical staff who continuously improve qualified healthcare with an uncompromising focus when it comes to proficiency and academic values.</p>
                     </div>
                 </div>
-                <div className='col-6'>
+                <div className='col-12 col-lg-6'>
                     <img className='img-fluid' src={banner1} alt="" />
                 </div>
             </div>

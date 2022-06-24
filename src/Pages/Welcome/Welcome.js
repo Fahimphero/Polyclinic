@@ -42,12 +42,12 @@ export default class Welcome extends Component {
             ]
         };
         return (
-            <div style={{ marginTop: '300px' }} className='container'>
-                <div className='row'>
-                    <div className='col-6'>
+            <div className='container' id="about">
+                <div className='row gy-3'>
+                    <div className='col-12 col-lg-6'>
                         <img className='img-fluid' src={banner} alt="" />
                     </div>
-                    <div className='col-6 d-flex align-items-center'>
+                    <div className='col-12 col-lg-6 d-flex align-items-center'>
                         <div className='d-flex flex-column justify-content-center align-items-center px-5'>
                             <h4 className='text-primary'>Welcome To</h4>
                             <h1 className='text-primary fw-bold'>CoochBehar Polyclinic</h1>

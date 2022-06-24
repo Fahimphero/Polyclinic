@@ -3,8 +3,8 @@ import './Timetable.css'
 
 const Timetable = () => {
     return (
-        <div style={{ marginBottom: '300px' }} className='container'>
-            <div style={{ marginTop: '-100px', marginRight: '100px' }} className='row text-light position-absolute ' >
+        <div style={{ marginBottom: '100px' }} className='container'>
+            <div style={{ marginTop: '-100px', marginRight: '6vw', marginLeft: '6vw' }} className='row text-light ' id='time-table'>
                 <div className='col-6 col-lg-3 px-3 pt-4 pb-0 background1 rounded-3'>
                     <h3>Excellence</h3>
                     <hr />

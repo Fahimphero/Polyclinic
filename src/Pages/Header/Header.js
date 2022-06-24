@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Navbar, Nav, Button, NavDropdown, Form } from 'react-bootstrap';
 import logo from '../../Images/logo.png'
 import './Header.css'
-
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -27,10 +27,10 @@ const Header = () => {
                         style={{ maxHeight: '100px' }}
                         navbarScroll
                     >
-                        <Nav.Link className='mx-2 text-dark' href="#action1"><span className='hover-style'>Home</span></Nav.Link>
-                        <Nav.Link className='mx-2 text-dark' href="#action2"><span className='hover-style'>About</span></Nav.Link>
-                        <Nav.Link className='mx-2 text-dark' href="#action2"><span className='hover-style'>Timetable</span></Nav.Link>
-                        <Nav.Link className='mx-2 text-dark' href="#action2"><span className='hover-style'>Our Doctors</span></Nav.Link>
+                        <Nav.Link className='mx-2 text-dark' href="/"><span className='hover-style'>Home</span></Nav.Link>
+                        <Nav.Link className='mx-2 text-dark' href="#about"><span className='hover-style'>About</span></Nav.Link>
+                        <Nav.Link className='mx-2 text-dark' href="#time-table"><span className='hover-style'>Timetable</span></Nav.Link>
+                        <Nav.Link as={Link} className='mx-2 text-dark' to="/all-doctors"><span className='hover-style'>Our Doctors</span></Nav.Link>
 
                     </Nav>
 

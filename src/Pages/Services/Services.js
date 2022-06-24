@@ -7,7 +7,7 @@ const Services = () => {
         <div style={{ marginTop: '100px', marginBottom: '100px' }} className='container'>
             <h1 className='text-center'>Services At Home</h1>
             <p className='text-center'>Being sick and weak makes it difficult for many patients, especially elder ones to visit the lab. Additionally visiting a lab also makes one dependent on others, as many times it is a bit risky for a sick person to visit alone. So to reward some comfort to our patients, we provide:</p>
-            <div className='row gx-3'>
+            <div className='row g-3'>
                 <div className="col-12 col-lg-4  rounded-3 ">
                     <div className='text-primary text-center pt-5 px-4 shadow-lg h-100 rounded-3'>
                         <h1 style={{ fontSize: '70px' }}><FontAwesomeIcon icon={faHome}></FontAwesomeIcon></h1>

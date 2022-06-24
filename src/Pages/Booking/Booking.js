@@ -5,7 +5,7 @@ import googleplay from '../../Images/en_badge_web_generic.png'
 const Booking = () => {
     return (
         <div className='container'>
-            <div className="row">
+            <div className="row gy-3">
                 <div className="col-12 col-lg-6">
                     <img className='img-fluid' src={company} alt="" />
                 </div>

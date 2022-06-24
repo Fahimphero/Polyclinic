@@ -1,13 +1,18 @@
 import React from 'react';
 import doctor from '../../Images/default.png'
+import { Link } from 'react-router-dom';
+import './Specialists.css'
 
 const Specialists = () => {
     return (
         <div style={{ marginTop: '200px' }} className='container '>
             <h1 className='text-primary text-center fw-bold mb-5'>Medical Specialists</h1>
-            <div className="row">
-                <div className="col-12 col-lg-3">
-                    <img className='img-fluid' src={doctor} alt="" />
+            <div className="row gy-3">
+                <div className="col-12 col-lg-3 ">
+                    <img className='img-fluid ' src={doctor} alt="" />
+                    <div className='text-center display-btn'>
+                        <button className='btn border border-dark btn-hover'>Book Appointment</button>
+                    </div>
                     <h5 className='mt-3 mb-0 text-primary fw-bold'>Dr. Soumen Chakraborty</h5>
                     <p className='text-primary'>General Surgeon</p>
                     <p >Dr. Soumen Chakraborty is an established and reputed General Surgeon. He is practicing for the last 15 years and He has succeeded to heal more than 108000+ patients till now.</p>
@@ -31,7 +36,7 @@ const Specialists = () => {
                     <p>Dr. Alok Santra is an established and reputed Obstetricians and Gynecologist. He is practicing for the last 8 years and He has succeeded to heal more than 75000+ patients till now.</p>
                 </div>
             </div>
-            <p className='text-center text-light mt-4'><button className='btn btn-primary px-4'>Meet All Doctors</button></p>
+            <p className='text-center mt-4'><button className='btn btn-primary px-4'><Link className='text-decoration' to='/all-doctors'><span className='text-light'>Meet All Doctors</span></Link></button></p>
         </div>
     );
 };
